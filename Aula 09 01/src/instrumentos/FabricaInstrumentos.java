@@ -23,7 +23,7 @@ public class FabricaInstrumentos {
     public static Instrumento getInstrumento(String tipo) {
         Instrumento prototipo = prototipos.get(tipo.toLowerCase());
         if (prototipo != null) {
-            return prototipo.clonar(); // 🔹 retorna CLONE
+            return prototipo.clonar(); 
         }
         return null;
     }
