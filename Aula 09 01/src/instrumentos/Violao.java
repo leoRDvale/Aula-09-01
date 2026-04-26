@@ -22,7 +22,7 @@ public abstract class Violao implements Instrumento {
 
     @Override
     public void exibirInfo() {
-        System.out.println("\n🎸 " + tipo + " 🎸");
+        System.out.println("\n" + tipo);
         System.out.println("Cordas: " + cordas);
         System.out.println("Descrição: " + descricao);
     }
